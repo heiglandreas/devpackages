@@ -1,0 +1,22 @@
+{
+    "name" : "mdv/devpackages", 
+    "type" : "library",
+    "description" : "This is a META-Package combining often-used development-packages",
+    "keywords" : [ "development","phpunit","phing","codesniffer"],
+    "license" : "MIT",
+    "authors" : [
+    {
+        "name" : "Andreas Heigl",
+        "email" : "a.heigl@wdv.de",
+        "role" : "Developer"
+    }],
+    "require" : {
+        "phing/phing" : "dev-master"
+    },
+    "require-dev" : {
+        "phpunit/phpunit": "3.7.*@dev",
+        "phpdocumentor/phpdocumentor": "dev-release-2.0.2",
+        "squizlabs/php_codesniffer": "dev-master"
+    },
+    "minimum-stability": "dev"
+}
