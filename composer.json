@@ -1,6 +1,6 @@
 {
-    "name" : "mdv/devpackages", 
-    "type" : "library",
+    "name" : "org_heigl/devpackages",
+    "type" : "metapackage",
     "description" : "This is a META-Package combining often-used development-packages",
     "keywords" : [ "development","phpunit","phing","codesniffer"],
     "license" : "MIT",
@@ -15,6 +15,9 @@
     },
     "require-dev" : {
         "phpunit/phpunit": "3.7.*@dev",
+        "phpunit/dbunit": "1.2.*@dev",
+        "phpmd/phpmd": "dev-master",
+        "pdepend/pdepend": "dev-master",
         "phpdocumentor/phpdocumentor": "dev-release-2.0.2",
         "squizlabs/php_codesniffer": "dev-master"
     },

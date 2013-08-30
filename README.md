@@ -6,6 +6,8 @@ Currently the following are included:
 
 * Phing
 * PHPUnit
+* PHP-Depend
+* PHP-MessDetector
 * PHPCodeSniffer
 * PHPDocumentor
 
