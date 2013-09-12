@@ -11,9 +11,7 @@
         "role" : "Developer"
     }],
     "require" : {
-        "phing/phing" : "dev-master"
-    },
-    "require-dev" : {
+        "phing/phing" : "dev-master",
         "phpunit/phpunit": "3.7.*@dev",
         "phpunit/dbunit": "1.2.*@dev",
         "phpmd/phpmd": "dev-master",
